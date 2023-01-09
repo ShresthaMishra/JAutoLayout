@@ -1,6 +1,6 @@
 # JAutoLayout
 
-[![](https://jitpack.io/v/kausko/JAutoLayout.svg)](https://jitpack.io/#kausko/JAutoLayout)
+[![](https://jitpack.io/v/ShresthaMishra/JAutoLayout.svg)](https://jitpack.io/#ShresthaMishra/JAutoLayout)
 
 JAutoLayout is a constraint-based layout management library based on the [kiwi](https://github.com/kausko/kiwi-java) implementation of the [Cassowary  linear arithmetic constraint-solving algorithm](https://constraints.cs.washington.edu/solvers/cassowary-tochi.pdf). It allows you to lay out components in (Java) Swing using [Apple's Visual Format Language (VFL)](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html).
 
@@ -17,7 +17,7 @@ In `pom.xml`, add the following at the end of the `<repositories>` section:
 Then, add the following to the `<dependencies>` section:
 
     <dependency>
-        <groupId>com.github.kausko</groupId>
+        <groupId>com.github.ShresthaMishra</groupId>
         <artifactId>Jautolayout</artifactId>
         <version>main-SNAPSHOT</version>
     </dependency>
@@ -29,7 +29,7 @@ In `build.gradle`, add the following at the end of the `repositories` section:
 
 Then, add the following to the `dependencies` section:
 
-    implementation 'com.github.kausko.JAutoLayout:main-SNAPSHOT'
+    implementation 'com.github.ShresthaMishra.JAutoLayout:main-SNAPSHOT'
 
 **Notes:**
 - Only works with Java 17 and above
